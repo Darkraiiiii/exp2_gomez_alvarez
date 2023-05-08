@@ -1,0 +1,352 @@
+/* Show it's not fixed to the top */
+body {
+  /*min-height: 75rem;*/
+  /*background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");*/
+  background-color: #D9F7FA;
+  padding-top: 86px;
+  
+} 
+/*aqui para cambiar los colores o propiedades del menu de navegacion */
+#logoAnimaliaStore{
+  color: #BD1E1E;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 0px;
+  margin-right: 16px;
+  padding-top: 3px;
+}
+
+#logoAnimaliaStore img{
+  margin-left: 100px;
+  margin-right: 140px;
+  margin-bottom: 3px;
+}
+
+#Otrotexto1{
+  color: #1595B5;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 300px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+
+#Otrotexto2{
+  color: #1595B5;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+#Otrotexto3{
+  color: #053C5E;
+  font-size: 20px;
+  text-decoration:solid;
+  margin: 0px;
+}
+
+#Otrotexto4{
+  color: #BD1E1E;
+  font-size: 30px;
+  text-decoration:solid;
+  margin: 0px;
+  padding-bottom: -20%;
+}
+
+
+.navbar{
+  -webkit-box-shadow:0px 2px 2px #dddddd;
+  -moz-box-shadow:0px 2px 2px #dddddd;
+  box-shadow:0px 2px 2px #ffffff;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  transition: 0.3s;
+  width: 100%;
+  top: 0;
+}
+
+#carousel1 {
+  position: relative;
+  z-index: 0;
+}
+
+#carousel1 img {
+  animation: fade-out 1s ease-out;
+  opacity: .8;
+  object-fit: cover;
+  transition: opacity ease-out 1s;
+}
+
+
+
+
+/*aqui para diseño de iniciar sesion*/
+#AnimaliaUser{
+  color: #7a1717;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+
+#AnimaliaUser:hover{
+  filter: invert(42%) sepia(99%) saturate(2844%) hue-rotate(341deg) brightness(95%) contrast(91%);
+}
+
+#AnimaliaUser img{
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+/*Aqui seccion de imagenes*/
+section{
+  display:flex;
+  width: 600px;
+  height: 430px;
+}
+
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+section img:hover{
+  cursor:crosshair;
+  width:300px;
+  opacity: 1;
+  filter:contrast(120%)
+}
+
+/*-----------------------Boton del carrusel------------------------------------------*/
+.marco1 {
+  border: 2px solid rgb(105, 22, 22);
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(62, 62, 100, 0.3);
+  border-radius: 30px;
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 20px;
+}
+/*------------------------------------Boton para nuestras redes------------------------------------------*/
+.marco2 {
+  border: 2px solid red;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  background-color: rgba(62, 62, 100, 0.3);
+  border-radius: 5px;
+}
+/*---------------------------------Boton para productos----------------------------------*/
+.marco3 {
+  border: 2px solid red;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(62, 62, 100, 0.3);
+  border-radius: 30px;
+  position: relative;
+  bottom: -40%;
+  right: -35%;
+}
+/*---------------------------------Boton para productos 2----------------------------------*/
+.marco4 {
+  border: 2px solid red;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgba(62, 62, 100, 0.3);
+  border-radius: 30px;
+  position: relative; 
+}
+/*---------------------------------Boton para productos 2----------------------------------*/
+
+/* busqueda*/
+#btnBuscar{
+  border-color: #BCA0BC; 
+  color: #053C5E;
+  margin-right: 20px;
+  margin-left: -5px;
+}
+
+#btnBuscar:hover{
+  background-color: #1595B5; 
+  color: #ffffff;
+}
+
+#btnRegistrarse{
+  border-color: #007BFF; 
+  color: #007BFF;
+}
+
+#btnRegistrarse:hover{
+  background-color: #0069D9; 
+  color: #ffffff;
+}
+
+#titLogo{
+  color: #3C92D8; 
+  margin-left: 7px;
+}
+
+#titLogo:hover{
+  filter: invert(42%) sepia(99%) saturate(2844%) hue-rotate(341deg) brightness(95%) contrast(91%);
+}
+
+#qSomos{
+  margin-right: -150px;
+  margin-left: 0px;
+  margin-bottom: 0;
+  background-color: #D9F7FA;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #596272;
+}
+
+#qSomos h1{
+  color: #212529;
+}
+
+#qSomos h2{
+  color: #e94f37;
+}
+/* aqui otro*/
+#qSomos2{
+  margin-right: -150px;
+  margin-left: 0px;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #596272;
+}
+
+#qSomos2 h1{
+  color: #212529;
+}
+
+#qSomos2 h2{
+  color: #e94f37;
+}
+
+
+#imag{
+padding-left: 20%;
+padding-top: 20%;
+}
+
+.imagen {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+}
+
+
+.card{
+  -webkit-box-shadow: 0px 0px 4px #c5c5c5;
+  -moz-box-shadow: 0px 0px 4px #c5c5c5;
+  box-shadow: 0px 0px 4px #c5c5c5;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 5px;
+  color: #596272;
+}
+
+.card img{
+  width: 180px;
+}
+
+div>h4{
+  color: #212529;
+} 
+
+.bg-image {
+  background-image: url('img/mascotas_5');
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+footer{
+  padding: 20px;
+  color: #1595B5;
+  background-color: #053C5E;
+  height: 280px;
+  margin-top: 20px;
+}
+
+footer div p{
+  font-size: 12px;
+  color: #888888;
+  padding-top: 5px;
+  line-height: 10px;
+}
+
+#linkFooter{
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+@media (max-width:991px){
+  header label{
+      display: block;
+  }
+  footer{
+    height: 500px;
+  }
+  .carousel-caption{
+    color: black;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+.carousel-caption a {
+  font-size: 2rem; 
+  padding: 10px 20px; 
+}
+
+@media (max-width: 768px) {
+  .carousel-caption a {
+    font-size: 1.5rem; 
+    padding: 5px 10px; 
+  }
+} 
+
+}  

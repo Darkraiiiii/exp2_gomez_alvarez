@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Animalia Store</title>
+    <link rel="icon" href="img/a.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+    
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            
+        </style>
+</head>
+
+<body>
+    <!--Icono y nombre de la tienda arriba a la izquierda-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4" id="barraNav">     
+        <!-- botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--links para los otros html-->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a  href="Mision.html" id="Otrotexto1" >Misión</a>
+                </li>
+                <li class="nav-item">
+                    <a  href="Tienda.html" id="Otrotexto2" >Tienda</a>
+                </li>
+            </ul>
+
+            <a href="Inicio.html" id="logoAnimaliaStore">
+                <img src="img/Logo.png" alt="logoAnimaliaStore" width="170px" height="70"> 
+            </a>
+
+            <!--boton de buscar-->
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="¿Buscas algún artículo?" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnBuscar">Buscar</button>
+            </form>
+            <div>
+                <a href="Inicio.html" id="AnimaliaUser">
+                    <img src="img/user-vector-icon.png" alt="AnimaliaUser" width="30px">Iniciar sesión / Registrarse 
+                </a>
+            </div>
+        </div>
+    </nav>
+<!--Aqui termina pagina de navegacion-->
+<div class="container-fluid">
+    <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1"></li>
+        <li data-target="#carousel1" data-slide-to="2"></li>
+      </ol>
+      <!--configuramos las imagenes y sus deslizamientos-->
+      <div class="carousel-inner">
+        <!--configuramos la primera ubicacion del carrusel-->
+        <div class="carousel-item active">
+          <img src="img/mascotas 6.png" class="d-block w-100" alt="Nuevos articulos">
+          <div class="carousel-caption ">
+            <a href="Tienda.html" class="marco1">Ir a la tienda</a>
+            <h3>¡Nuevos articulos!</h3>
+            <p>Acaban de llegar nuevos articulos a nuestra tienda, ¡no te los puedes perder!</p>
+          </div>
+        </div><!--cerramos la primera foto-->
+        <!--diapositivas-->
+        <div class="carousel-item">
+          <img src="img/mascotas 3.png" class="d-block w-100" alt="Nuestra Mision">
+          <div class="carousel-caption">
+            <a href="Mision.html" class="marco1">Nuestra Mision</a>
+            <h3>Descubre nuestros objetivos</h3>
+            <p>Aquí podras encontrar nuestra mision y Visión</p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img src="img/mascotas 4.jpg" class="d-block w-100" alt="Siguenos en nuestras redes">
+          <div class="carousel-caption">
+            <a href="Inicio.html" class="marco1">Siguenos</a>
+            <h3>Siguenos en nuestras redes</h3>
+            <p>Damos las mejores ofertas y promociones, no te las pierdas y sigue nuestras redes</p>
+          </div>
+        </div>
+      </div>
+  
+      <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+  
+      <a class="carousel-control-next" href="#carousel1" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+  </div>
+</div>
+                                                <!-- aqui comienzaprimer mensaje-->
+    <main role="main" class="container">
+        <div class="container border rounded p-3" >
+            <div class="row jumbotron" id="qSomos">
+              <div class="col-md-6">
+                <div>
+                    
+                  <h1>Animalia Store</h1><br>
+                  <h2 class="lead"><strong>Quiénes somos</strong></h2>
+                  <p>
+                    Nosotros somos unos entusiastas de los animales que buscan ayudar tanto a una fundacion sin fines de lucro
+                    como a ustedes a obtener los mejores productos para mascotas que podran encontrar <br><br>
+          
+                    Nuestros usuarios desde la primera compra, notarán el como nuestros productos vienen de personas
+                    que saben del cuidado de animales <br><br> <strong> ¡Bienvenid@s a
+                      Animalia Store!</strong> 
+                  </p>
+                  <a href="Inicio.html" class="marco2">Nuestras redes</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <section>
+                  <img src="img/perroA.jpg" class="img-fluid d-block mx-auto mb-3">
+                  <img src="img/gatoA.jpg" class="img-fluid d-block mx-auto mb-3">  
+                  <img src="img/PerroB.webp" class="img-fluid d-block mx-auto mb-3">  
+                  <img src="img/GatoB.jpg" class="img-fluid d-block mx-auto mb-3">    
+                </section> 
+              </div>
+            </div>
+        </div> 
+                                                <!-- aqui comienza el segundo-->    
+        <hr>
+        <div class="container border rounded p-3">
+            <div class="row jumbotron" id="qSomos2">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="img/mascotas.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1>Nuestra tienda</h1><br>
+                        <h2 class="lead"><strong>Los productos que vendemos</strong></h2>
+                        <p>
+                            Nos encargamos de elegir a los mejores proovedores, de las mejores tiendas a nivel nacional
+                            para cooperar en nuestra tienda, muchos de ellos tambien suelen donar productos, ya que 
+                            nosotros al ser una entidad sin fines de lucro, apoyamos a la mismas causas con una mision similar
+                        </p>
+                        <p>        
+                            ¡Por ello a ti, te ofrecemos descuentos importantes por que cada peso cuenta a la hora de apoyar!
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <hr><br>
+        <h3 class="lead" id="Otrotexto4"><strong> Nuestros Productos más vendidos</strong></h3><br>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 1.jpg"  width="250" height="250" alt="" >
+                    <div class="card-body">
+                        <h4 class="card-title">Jaula Para Aves</h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$59.990 <br> Una conveniente jaula hecha para aves <br>
+                            <i class="fa fa-eye"></i> 406.117 </p>
+                            <a href="#" class="btn btn-primary col-12">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 2.jpg" width="250" height="250"  alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Collares de colores</h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$5.990 <br> Distintos collares con diseño a eleccion <br>
+                            <i class="fa fa-eye"></i> 356.117 </p>
+                            <a href="#" class="btn btn-primary col-12">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card text-center">
+                    <img class="card-img-top mx-auto" src="img/tienda 3.jpg" width="250" height="250" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Plumero  </h4>
+                        <p class="card-text">Stock:+100 <br>Precio :$1.990 <br>Plumeros varios, los favoritos de los gatos <br>
+                            <i class="fa fa-eye"></i> 307.541 </p>
+                        <a href="#" class="btn btn-primary col-12">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr><br>        
+    </main><br>
+    
+    <!--desde aqui comienza el footer-->
+    <footer >
+        <div class="row col-12">
+            <div class="col-lg-3">
+                <img src="img/Logo.png" alt="logoAnimalia" width="250" height="90">
+            </div>
+            <div class="col-lg-1">
+                <a href="Inicio.html" id="linkFooter"><strong>Inicio</strong></a>
+            </div>
+            
+            <div class="col-lg-1">
+                <a href="Mision.html" id="linkFooter"><strong>Mision</strong></a>
+            </div>
+            <div class="col-lg-1">
+                <a href="Tienda.html" id="linkFooter"> <strong>Tienda</strong></a>
+            </div>
+
+            <div class="col-lg-3">
+                <strong>Síguenos</strong>
+                <br><br>
+                <div class="row">
+                    <a href="https://www.facebook.com">
+                    <img src="img/face.png" alt="" width="30px" height="30px" style=" margin-left: 15px;" >
+                    </a>
+                    <a href="https://www.twitter.com">    
+                    <img src="img/twitter.png" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    </a>
+                    <a href="https://www.instagram.com">  
+                    <img src="img/insta.png" alt="" width="30px" height="30px" style=" margin-left: 10px;">
+                    </a>     
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <strong>Contacto</strong>
+                <br><br>
+                <div class="row">
+                    <img src="img/location.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>Av. Esq. Blanca 501, Maipú</p>
+                </div>
+                <div class="row">
+                    <img src="img/fono.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>225554000</p>
+                </div>
+                <div class="row">
+                    <img src="img/email.png" alt="" width="20px" height="20px"
+                        style="margin-right: 10px; margin-left: 15px;">
+                    <p>consulta@AnimaliaStore.cl</p>
+                </div>
+                <br><br><br>
+
+                <p>&copy; Animalia Store- 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script que permite mostrar/ocultar navbar haciendo scroll -->
+    <script type="text/javascript">
+        let ubicacionInicial = window.pageYOffset;
+        window.onscroll = function () {
+            let ubicacionPosterior = window.pageYOffset;
+            if (ubicacionInicial >= ubicacionPosterior) {
+                document.getElementById("barraNav").style.top = "0";
+            }
+            else {
+                document.getElementById("barraNav").style.top = "-100px";
+            }
+            ubicacionInicial = ubicacionPosterior
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+</body>
+    
+</body>
+</html>
